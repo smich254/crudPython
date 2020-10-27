@@ -3,4 +3,4 @@ from rest_framework import serializers
 class CorreoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Correo
-        fields = ('correo')
+        fields = ('correo',)
